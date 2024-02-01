@@ -74,7 +74,21 @@ h2{
 
 /* Secondo blocco Secondo blocco Secondo blocco Secondo blocco Secondo blocco Secondo blocco  */
 
+.seconda{
+  background-color: #9792e4;
+}
 
+.quarta{
+  background-color: #9792e4;
+}
+
+.sesta{
+  background-color: #9792e4;
+}
+
+.settima{
+  background-color: #333333;
+}
 
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 
@@ -83,16 +97,21 @@ h2{
 }
 
 @media screen and (min-width: 768px) {
-  .card{
-  }
   .prima .row-1{
     display: flex;
   }
   .prima .row-2{
     display: flex;
   }
+  .prima .row-1 .big{
+    width: 60%;
+  }
+  .prima .row-1 .small{
+    width: 40%;
+  }
 
   /* SECONDA SECONDA SECONDA SECONDA  */
+
 /* TERZA */
 /* QUARTA */
 /* QUINTA */
@@ -122,6 +141,15 @@ h2{
   .seconda .card{
     display: flex;
   }
+  .seconda .row-1{
+    height: 50%;
+    width: 45%;
+  }
+  .seconda .row-2 .big{
+    width: 65%;
+    height: 100%;
+  }
+  
   /* TERZA */
   /* QUARTA */
   /* QUINTA */

@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* UTILITY */
+
+.d-flex{
+  display: flex;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+
+
+
+/* Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco  */
+
+
+
+/* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+}

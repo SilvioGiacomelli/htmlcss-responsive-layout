@@ -139,12 +139,12 @@ header{
 /* QUARTA */
   
   .quarta .box{
-    width: 100px;
+    width: 50%;
   }
 
   .quarta .row-1{
     display: flex;
-    width: 250px;
+    flex-wrap: wrap;
   }
 
 
@@ -197,6 +197,15 @@ header{
   
   /* TERZA */
   /* QUARTA */
+  .quarta .box{
+    width: 33%;
+    height: 165px;
+  }
+
+  .quarta .row-1{
+    display: flex;
+    flex-wrap: wrap;
+  }
   /* QUINTA */
 
 }

@@ -31,6 +31,13 @@ img{
   justify-content: center;
 }
 
+.debug{
+  border: 1px solid black;
+}
+
+.container{
+  margin: 0 auto;
+}
 
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 
@@ -38,7 +45,14 @@ img{
 
 /* Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco  */
 
+.card{
+  margin: 30px;
+}
 
+.box{
+  width: 100%;
+  height: 310px;
+}
 
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 

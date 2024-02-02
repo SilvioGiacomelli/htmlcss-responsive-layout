@@ -263,19 +263,52 @@ img{
 
 .quarta .box{
   background-color: white;
-  border-radius: 20px;
 }
 
-.quarta h2{
-
+.quarta .box h3{
+  color: #9792e4;
+  padding-bottom: 2%;
 }
 
-.quarta h3{
+.quarta .box h2{
+  color: #9792e4;
+  padding-bottom: 2%;
+}
 
+.more a{
+  background-color: #9792e4;
+  color: white;
+  border-radius: 100px;
+  padding: 5px 25px;
+  margin-bottom: 5px;
+  text-decoration: none;
 }
-.quarta p{
-  
+
+.more{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+.quarta .box h2{
+  padding: 1% 5% 0 10%;
+}
+.quarta .box h3{
+  padding: 1% 5% 0 10%;
+}
+.quarta .box p{
+  padding: 1% 5% 0 10%;
+}
+.quarta .more{
+  padding: 5% 5% 5% 10%;
+}
+.quarta{
+  padding-bottom: 30px;
+}
+
+/* QUINTA QUINTA QUINTA QUINTA QUINTA  */
+
+
+
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 @media screen and (max-width: 767px) {
   
@@ -310,6 +343,10 @@ img{
   .terza img{
     padding: 5%;
   }
+
+  /* QUARTA QUARTA QUART QUARTA */
+
+ 
 
 }
                   /* 768 */
@@ -394,17 +431,21 @@ img{
 
   /* QUARTA */
   
+  
+
   .quarta .box{
-    width: 50%;
+    max-width: 47%;
+    max-height: calc(100%/3);
   }
 
   .quarta .row-1{
     display: flex;
     flex-wrap: wrap;
+    
   }
 
 
-  /* QUINTA */
+  /* QUINTA QUINTA QUINTA */
   .quinta .card{
     display: flex;
   }
@@ -442,7 +483,6 @@ img{
   .prima .row-1 .big{
     display: flex;
     justify-content: flex-start;
-    align-items: ;
     position: relative;
   }
   .prima img{
@@ -485,17 +525,22 @@ img{
     font-size: 2rem;
   }
   
-
   /* TERZA */
   /* QUARTA */
   .quarta .box{
-    width: 33%;
-    height: 165px;
+    max-width: 31%;
   }
 
   .quarta .row-1{
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .quarta h2{
+    max-height: 100%;
+  }
+  .quarta p{
+    max-width: 100%;
   }
   /* QUINTA */
 

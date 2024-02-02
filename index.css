@@ -220,7 +220,6 @@ img{
   padding-bottom: 5%;
 }
 
-
 /* Terzo blocco Terzo blocco Terzo blocco Terzo blocco Terzo blocco Terzo blocco  */
 
 .terza h2{
@@ -240,9 +239,10 @@ img{
   align-items: center;
 }
 .terza .wanted img{
-  border-radius: 100px 100px;
+  border-radius: 50%;
   height: 200px;
   width: 200px;
+  object-fit:cover;
 }
 .terza .wanted p{
   color: white;
@@ -255,9 +255,27 @@ img{
   margin:0 5%;
 }
 
+/* Quarto blocco Quarto blocco Quarto blocco Quarto blocco Quarto blocco Quarto blocco  */
 
+.quarta h3{
+  color: white
+}
 
+.quarta .box{
+  background-color: white;
+  border-radius: 20px;
+}
 
+.quarta h2{
+
+}
+
+.quarta h3{
+
+}
+.quarta p{
+  
+}
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 @media screen and (max-width: 767px) {
   

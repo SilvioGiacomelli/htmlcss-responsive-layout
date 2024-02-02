@@ -267,7 +267,7 @@ img{
     text-align: left;
   }
   .prima .demo-text{
-    padding-left: 15%;
+    padding-left: 10%;
   }
   .prima h2{
     font-size: 1.1em;
@@ -285,8 +285,17 @@ img{
     padding-top: 10%;
     line-height: 30px;
   }
+  .prima .big{
+    position: relative;
+  }
+  .prima .big .img{
+    position: absolute;
+    bottom:0;
+  }
   
-
+  .prima .box i{
+    padding-top: 5%;
+  }
   /* SECONDA */
 
   /* TERZA */
@@ -339,15 +348,28 @@ img{
   }
   .prima .row-1 .big{
     display: flex;
-    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: ;
+    position: relative;
   }
   .prima img{
     width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
   .demo-text{
-    width: 49%;
+    height: 50%;
+    position: absolute;
+    line-height: 20px;
+  }
+  .demo-text p{
+    line-height: 20px;
   }
 
+  .prima .box i{
+    padding-top: 5%;
+  }
   /* SECONDA SECONDA SECONDA */
   
   .seconda .card{

@@ -9,7 +9,6 @@ body{
   font-family: 'PT Sans', sans-serif;
 }
 
-
 img{
   max-width: 100%;
 }
@@ -47,7 +46,8 @@ h2{
 }
 
 .debug{
-  border: 5px solid black;
+  border: 5px dotted black;
+  border-radius: 20px;
 }
 
 .fill{
@@ -67,8 +67,7 @@ h2{
   height: 100%;
 }
 
-.end
-{
+.end{
   justify-content: flex-end;
 }
 /* COLORI BACKGROUND */
@@ -97,7 +96,6 @@ header{
 
 
 
-/* Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco  */
 
 .card{
   margin: 30px;
@@ -117,44 +115,85 @@ header{
 
 .box{
   width: 100%;
-  
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin:25px 10px
 }
 
+
+
+
+/* Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco Primo blocco  */
+
+img{
+  max-width: 100%;
+  max-height: 100%; 
+}
+.prima .box{
+  background-color:#b5ddff;
+}
+.prima .big{
+  text-align: left;
+  position: relative;
+}
+#apple{
+  background-color: #0084fd;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-left: 2%;
+}
+.prima .big i{
+  color: white;
+  font-size:1rem;
+  margin-top: 7%;
+}
+.prima .big a{
+  color: white;
+  text-decoration: none;
+}
+.prima h2{
+  color: #0084fd;
+  font-size: 1em;
+}
+.prima h3{
+  color: #0084fd;
+}
+.prima i{
+  color: #0084fd;
+  font-size: 5.5rem;
+  
+}
+.prima p{
+  color: #62778a;
+  line-height: 20px;
+  font-size: 1rem;  
+  padding: 4% 0;
+}
+.prima .demo-text{
+  width: 60%;
+}
+.prima img{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  justify-content: end;
+  width: 50%;
+}
 /* Secondo blocco Secondo blocco Secondo blocco Secondo blocco Secondo blocco Secondo blocco  */
-
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
-
 @media screen and (max-width: 767px) {
-  img{
-    max-width: 100%;
-    max-height: 100%; 
+  
+  .big{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  .prima .box{
-    background-color:#b5ddff;
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
-  #apple{
-    background-color: #0084fd;
-    padding: 10px 40px;
-  }
-  .prima .big i{
-    color: white;
-  }
-  .prima .big a{
-    color: white;
-    text-decoration: none;
-  }
-  .prima h3{
-    color: #0084fd;
-  }
-  .prima i{
-    color: #0084fd;
-  }
-  .prima p{
-    color: #62778a;
-  }
-
 }
                   /* 768 */
 @media screen and (min-width: 768px) {
@@ -248,6 +287,10 @@ header{
     display: flex;
   }
   .prima img{
+    width: 50%;
+    padding-right: 0%;
+  }
+  .demo-text{
     width: 50%;
   }
   /* SECONDA SECONDA SECONDA */

@@ -366,6 +366,10 @@ img{
 }
 
 /* SESTA SESTA SESTA SESTA  */
+.sesta{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 .sesta .box{
   text-align: center;
   margin: 5% 0;

@@ -306,10 +306,64 @@ img{
 }
 
 /* QUINTA QUINTA QUINTA QUINTA QUINTA  */
-
-
-
-/* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
+.quinta img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.quinta h2{
+  color: #9792e4;
+  padding: 5% 0;
+  font-size: 3rem;
+}
+.quinta p{
+  line-height: 190%;
+  padding-bottom: 10%;
+}
+.quinta .about-img{
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+.quinta .about-img h3{
+  color: #9792e4;
+  margin: 7% 0;
+}
+.quinta .about-wanted i{
+  top: 0;
+  right: 30%;
+}
+.quinta .about-wanted h3{
+  color: #9792e4;
+  font-size: 1.8rem;
+}
+.quinta .about-img i{
+  font-size:5rem;
+  position: absolute;
+  left: 80%;
+  top: 0;
+  color: #9792e4;
+}
+.quinta .about-wanted a{
+  text-decoration: none;
+  color: white;
+}
+.fa-linkedin{
+  color: white;
+  padding-right: 3%;
+}
+.quinta .about-btn{
+  background-color: #9792e4;
+  color: white;
+  border-radius: 100px;
+  padding: 5px 5px;
+  margin-top: 5%;
+  margin-bottom: 5px;
+  text-decoration: none;
+  max-width: 200px;
+}
+/* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY */
 @media screen and (max-width: 767px) {
   
   .prima .big{
@@ -344,9 +398,11 @@ img{
     padding: 5%;
   }
 
-  /* QUARTA QUARTA QUART QUARTA */
+  /* QUINTA QUINTA QUINTA */
 
- 
+ .quinta img{
+  text-align: left;
+ }
 
 }
                   /* 768 */
@@ -450,6 +506,11 @@ img{
     display: flex;
   }
 
+  .quinta .about-wanted{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+  }
   /* SESTA */
   
 

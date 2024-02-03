@@ -46,7 +46,7 @@ h2{
 }
 
 .debug{
-  border: 5px dotted black;
+  
   border-radius: 20px;
 }
 
@@ -88,6 +88,10 @@ header{
   background-color: #333333;
 }
 
+footer{
+  background-color: #333333;
+}
+
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 
 .box-header{
@@ -102,9 +106,6 @@ header{
   width: 100%;
   margin-bottom: 30px;
 }
-
-
-
 
 .card{
   margin: 30px;
@@ -363,6 +364,73 @@ img{
   text-decoration: none;
   max-width: 200px;
 }
+
+/* SESTA SESTA SESTA SESTA  */
+.sesta .box{
+  text-align: center;
+  margin: 5% 0;
+}
+.sesta h4{
+  color: white;
+  margin: 5% 0;
+  color: #cfcef2;
+  font-weight: 100;
+}
+.sesta h3{
+  color: white;
+  margin: 5% 0;
+}
+.sesta h2{
+  color: #fdc15f;
+  margin: 5% 0;
+}
+.sesta p{
+  color: white;
+  margin: 5% 0;
+}
+.free-btn a{
+  background-color: white;
+  padding: 5px 60px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #9792e4;
+  margin: 5% 0;
+}
+.free-btn{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin: 5% 0;
+}
+.sesta i{
+  font-size: 0.2rem;
+  vertical-align: middle;
+}
+.sesta p{
+  margin: 5% 0;
+}
+.sesta p a{
+  color: white;
+}
+.sesta .box{
+  margin: 0 auto;
+  margin-bottom: -30px;
+}
+/* SETTIMA SETTIMA SETTIMA  */
+
+.settima .card{
+  text-align: center;
+}
+.settima p a{
+  color: #9792e4;
+}
+.settima p{
+  color: white;
+}
+.settima .box{
+  margin: 0;
+  padding: 10%;
+}
+
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY */
 @media screen and (max-width: 767px) {
   
@@ -404,6 +472,28 @@ img{
   text-align: left;
  }
 
+  /* SESTA SESTA SESTA  */
+ .settima{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .settima .card{
+  margin: 0 auto;
+ }
+ footer{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .settima .debug{
+  margin: 0 auto;
+ }
+ .settima .row-1{
+  margin: 0 auto;
+ }
+ .settima .container{
+  margin: 0 auto;
+  margin-top: 0;
+ }
 }
                   /* 768 */
 @media screen and (min-width: 768px) {
@@ -513,7 +603,15 @@ img{
   }
   /* SESTA */
   
-
+  .sesta h3{
+    font-size: 4rem;
+  }
+  .sesta h2{
+    font-size: 5rem;
+  }
+  .free-btn a{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
